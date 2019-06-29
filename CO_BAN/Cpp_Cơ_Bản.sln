@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Con_Trỏ_Hàm", "Con_Trỏ
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Extern_trong_Cpp", "Extern_trong_Cpp\Extern_trong_Cpp.vcxproj", "{2DFE9CB4-9290-4465-AADE-61C29D998856}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Include_cách_sử_dụng", "Include_cách_sử_dụng\Include_cách_sử_dụng.vcxproj", "{BD0F5FA8-AB80-45C0-9545-A31184394782}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{2DFE9CB4-9290-4465-AADE-61C29D998856}.Release|x64.Build.0 = Release|x64
 		{2DFE9CB4-9290-4465-AADE-61C29D998856}.Release|x86.ActiveCfg = Release|Win32
 		{2DFE9CB4-9290-4465-AADE-61C29D998856}.Release|x86.Build.0 = Release|Win32
+		{BD0F5FA8-AB80-45C0-9545-A31184394782}.Debug|x64.ActiveCfg = Debug|x64
+		{BD0F5FA8-AB80-45C0-9545-A31184394782}.Debug|x64.Build.0 = Debug|x64
+		{BD0F5FA8-AB80-45C0-9545-A31184394782}.Debug|x86.ActiveCfg = Debug|Win32
+		{BD0F5FA8-AB80-45C0-9545-A31184394782}.Debug|x86.Build.0 = Debug|Win32
+		{BD0F5FA8-AB80-45C0-9545-A31184394782}.Release|x64.ActiveCfg = Release|x64
+		{BD0F5FA8-AB80-45C0-9545-A31184394782}.Release|x64.Build.0 = Release|x64
+		{BD0F5FA8-AB80-45C0-9545-A31184394782}.Release|x86.ActiveCfg = Release|Win32
+		{BD0F5FA8-AB80-45C0-9545-A31184394782}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
