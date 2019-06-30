@@ -23,20 +23,20 @@ int main()
 	return 0;
 }
 /*
-            |-------------------------- Header file -------------------------------------|
-		    |                        |                        |                          |
-		Copy header             Copy header              Copy header                Copy header  
-		    |                        |                        |                          |
-         FileA.cpp                FileB.cpp                main.cpp                  FileC.cpp   
-		    |                        |                        |                          |
-	      Compile    	          Compile   	           Compile   	              Compile   
-	 	    |                        |                        |                          |
-		FileA.obj                 FileB.obj                 main.obj                   FileC.obj
-	    	|                        |                        |                          |
-			|                        |                        |                          |
-			------------------------------------------------------------------------------
-			---------------------------------LINK-----------------------------------------  <========== Standard Runtime Library 
-			------------------------------------------------------------------------------ 
-			                                   |
-											main.exe 
+              |-------------------------- Header files ------------------------------------|
+              |                        |                        |                          |
+         Copy header              Copy header              Copy header                Copy header  
+              |                        |                        |                          |
+           FileA.cpp                FileB.cpp                main.cpp                   FileC.cpp   
+              |                        |                        |                          |
+	   Compile                   Compile                 Compile                    Compile   
+              |                        |                        |                          |
+           FileA.obj                FileB.obj                main.obj                   FileC.obj
+              |                        |                        |                          |
+              |                        |                        |                          |
+              ------------------------------------------------------------------------------
+              ---------------------------------LINK-----------------------------------------  <========== Standard Runtime Library 
+              ------------------------------------------------------------------------------ 
+			                         |
+                                              main.exe 
 */
